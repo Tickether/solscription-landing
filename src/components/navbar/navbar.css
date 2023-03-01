@@ -29,8 +29,8 @@
 .deployer{
     width: 200px;
     height: 50px;
-    background: #662D91;
-    border-radius: 15px;
+    background: #92278F;
+    border-radius: 10px;
     color: aliceblue;
     border: none;
     font-family: 'Poppins', sans-serif;
@@ -39,8 +39,8 @@
 .marketplace{
     width: 200px;
     height: 50px;
-    background: #92278F;
-    border-radius: 15px;
+    background: #662D91;
+    border-radius: 10px;
     color: aliceblue;
     border: none;
     font-family: 'Poppins', sans-serif;
