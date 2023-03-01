@@ -139,36 +139,29 @@
         width: 100%;
         text-align: center;
     }
-
-    .heroSpan{
-        font-weight: bolder;
-        font-size: 5.5vw;
-        color: aliceblue;
-    }
     
-
     .heroDeployer{
-        width: 18rem;
-        height: 3.3rem;
+        width: 20rem;
+        height: 3rem;
         background: #92278F;
         border-radius: 10px;
         color: aliceblue;
         border: none;
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
-        font-size: 2.2vw;
+        font-size: 2.3vw;
     }
     
     .heroMarketplace{
-        width: 21rem;
-        height: 3.3rem;
+        width: 23rem;
+        height: 3rem;
         background: #662D91;
         border-radius: 10px;
         color: aliceblue;
         border: none;
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
-        font-size: 2.2vw;
+        font-size: 2.3vw;
     }
 
 }
