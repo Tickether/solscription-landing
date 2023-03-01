@@ -8,9 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
- 
-
-    
+    position: fixed;
 }
 
 .navbarWrapper{
@@ -26,9 +24,9 @@
     
 }
 
-.deployer{
-    width: 200px;
-    height: 50px;
+.navDeployer{
+    width: 9rem;
+    height: 3rem;
     background: #92278F;
     border-radius: 10px;
     color: aliceblue;
@@ -36,12 +34,25 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.marketplace{
-    width: 200px;
-    height: 50px;
+.navMarketplace{
+    width: 10rem;
+    height: 3rem;
     background: #662D91;
     border-radius: 10px;
     color: aliceblue;
     border: none;
     font-family: 'Poppins', sans-serif;
 }
+
+
+@media only screen and (max-width : 840px) {
+
+    .navDeployer{
+        display: none;
+    }
+
+    .navMarketplace{
+        display: none;
+    }
+  }
+  
