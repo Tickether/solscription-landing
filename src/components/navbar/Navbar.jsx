@@ -1,4 +1,3 @@
-
 import './navbar.css';
 import logo from '../../assets/logos/solscription_logo_white_text.svg';
 
@@ -9,9 +8,10 @@ function Navbar() {
         <div className="logo">
           <img src={logo} alt="" />
         </div>
-        <div className="navbarBtns">
-          <button className="navMarketplace">Marketplace</button>
-          <button className="navDeployer">Deployer</button>
+        <div className="navbarMenu">
+          <span>How it Works?</span>
+          <span>Partners</span>
+          <span>Team</span>
         </div>
       </div>
     </div>

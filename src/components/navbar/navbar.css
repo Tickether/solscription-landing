@@ -4,7 +4,7 @@
 .navbar{
     width: 100%;
     height: 100px;
-    background-color: #161622;
+    background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,15 +12,25 @@
 }
 
 .navbarWrapper{
-    width: 90%;
+    width: 80%;
     display: flex;   
     align-items: center;
-    justify-content: space-between;
 }
 
+.logo{
+    flex-grow: .4;
+}
+
+.navbarMenu{
+    display: flex;
+    color: aliceblue;
+    gap: 10px;
+    text-align: center;
+}
 .navbarBtns{
     display: flex;
     gap: 20px;
+    display: none;
     
 }
 
@@ -37,7 +47,7 @@
 .navMarketplace{
     width: 10rem;
     height: 3rem;
-    background: #662D91;
+    background: #372049;
     border-radius: 10px;
     color: aliceblue;
     border: none;
@@ -47,12 +57,11 @@
 
 @media only screen and (max-width : 840px) {
 
-    .navDeployer{
+    .navbarMenu{
         display: none;
     }
-
-    .navMarketplace{
-        display: none;
+    .navbarWrapper{
+        justify-content: space-between;
     }
   }
   

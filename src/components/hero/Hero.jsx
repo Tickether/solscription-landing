@@ -16,14 +16,12 @@ function Hero() {
     <div className="hero">
       <div className='heroWrapper'>
         <div className='left'>
-          
           <div className='tagline'>
             <span className='heroSpan'>Accept or Pay Subscriptions with Crypto</span>
           </div>
-          
           <div className="heroBtns">
-              <button className="heroDeployer">Deployer</button>
-              <button className="heroMarketplace">Marketplace</button>
+            <button className="heroDeployer">Deployer</button>
+            <button className="heroMarketplace">Marketplace</button>
           </div>
         </div>
         <div className='right'>
