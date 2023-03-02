@@ -44,6 +44,15 @@
     left: 130px;
 }
 
+.heroAbstract_III{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    margin-top: -10%;
+    margin-left: -30%;
+}
+
 .heroAbstract_I{
     width: 100%;
     height: 100%;
@@ -173,12 +182,21 @@
 
     .left{
         display: flex;
-        gap: 6rem;
+        gap: 4rem;
     }
     
     .tagline{
         width: 100%;
         text-align: center;
+    }
+
+    .heroAbstract_III{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        margin-top: 10%;
+        margin-left: -30%;
     }
 
     .heroSpan{
@@ -273,12 +291,21 @@
 
     .left{
         display: flex;
-        gap: 6rem;
+        gap: 4rem;
     }
     
     .tagline{
         width: 100%;
         text-align: center;
+    }
+
+    .heroAbstract_III{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        margin-top: -10%;
+        margin-left: -30%;
     }
 
     .heroSpan{

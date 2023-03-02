@@ -1,6 +1,7 @@
 
 import './hero.css';
 import heroImg from '../../assets/hero/eth_portfolio.svg'
+import heroAbstract_III from '../../assets/hero/e_6.svg'
 //import heroAbstract from '../../assets/hero/e_46.svg'
 //import heroAbstract_I from '../../assets/hero/e_47.svg'
 //import heroAbstract_II from '../../assets/hero/e_48.svg'
@@ -18,6 +19,7 @@ function Hero() {
         <div className='left'>
           <div className='tagline'>
             <span className='heroSpan'>Accept or Pay Subscriptions with Crypto</span>
+            <img className='heroAbstract_III' src={heroAbstract_III} alt="" />
           </div>
           <div className="heroBtns">
             <button className="heroDeployer">Deployer</button>
